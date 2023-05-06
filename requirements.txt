@@ -1,0 +1,6 @@
+colorama==0.4.5
+google_api_python_client==2.70.0
+google_auth_oauthlib==0.8.0
+protobuf==4.21.12
+spotipy==2.20.0
+termcolor==2.1.1
