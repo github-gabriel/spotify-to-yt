@@ -77,6 +77,7 @@ class SpotifyToYouTube:
         self.youtube = None
 
         self.song_titles_file_path = "song_titles.txt"
+        self.song_titles_list = ""
         try:
             if os.path.exists(self.song_titles_file_path):
                 self.song_titles = open(self.song_titles_file_path, "r")
